@@ -212,11 +212,11 @@
                 <div class="project-card" data-category="research">
                     <div class="project-img"></div>
                     <div class="project-info">
-                        <h3 data-translate="project-1-title">DEMLP (em andamento)</h3>
-                        <p data-translate="project-1-description">Baseado em minha Iniciação Científica: DE-MLP.
-                            Pesquisa sobre como diferentes abordagens de Ciência de Dados afetam um modelo para detecção
-                            e classificação de cálculos renais em tomografias computadorizadas, utilizando TensorFlow
-                            com suporte a GPU. Projeto de pesquisa do mestrado.</p>
+                        <h3 data-translate="project-1-title">DEMLP</h3>
+                        <p data-translate="project-1-description">Pipeline de classificação binária de imagens médicas
+                            para detecção de cálculos renais usando a CNN customizada Conv4, validação cruzada 5-fold
+                            (estratificada por grupos via SSIM para evitar vazamento de dados), três estratégias de
+                            processamento de dados e interpretabilidade com mapas de ativação Grad-CAM.</p>
                         <div class="project-tags">
                             <span>Python</span>
                             <span>TensorFlow</span>
@@ -228,31 +228,97 @@
                         </div>
                     </div>
                 </div>
-                <!-- 2. Simulação Robô -->
-                <div class="project-card" data-category="academic">
+                <!-- 2. Amendoa's Dreams -->
+                <div class="project-card" data-category="research">
+                    <span class="project-status-badge" data-translate="status-in-progress"><i
+                            class="fas fa-spinner fa-spin"></i> Em andamento</span>
                     <div class="project-img"></div>
                     <div class="project-info">
-                        <h3 data-translate="project-2-title">Simulação de Robô</h3>
-                        <p data-translate="project-2-description">Simulação robótica desenvolvida em Python para
-                            disciplina acadêmica na FEI. Modelagem e controle de movimentos autônomos.</p>
+                        <h3 data-translate="project-2-title">Amendoa's Dreams</h3>
+                        <p data-translate="project-2-description">Diário digital de sonhos para registrar, visualizar,
+                            editar e excluir relatos de sonhos (título, humor, tags, horários e data). Construído com
+                            frontend em PHP que consome uma API REST em C# ASP.NET Core, utilizando PostgreSQL e Dapper
+                            para consultas SQL explícitas.</p>
                         <div class="project-tags">
-                            <span>Python</span>
-                            <span data-translate="tag-robotics">Robótica</span>
-                            <span data-translate="tag-simulation">Simulação</span>
+                            <span>C#</span>
+                            <span>SQL</span>
+                            <span>PHP</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/reh2G/Simulacao-Robo" target="_blank" rel="noopener noreferrer"
+                            <a href="https://github.com/reh2G/AmendoasDreams" target="_blank" rel="noopener noreferrer"
                                 title="Repositório GitHub"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
                 </div>
-                <!-- 3. Bússola Assembly -->
+                <!-- 3. TCC Fake DICOM -->
                 <div class="project-card" data-category="academic">
                     <div class="project-img"></div>
                     <div class="project-info">
-                        <h3 data-translate="project-3-title">Bússola Assembly</h3>
-                        <p data-translate="project-3-description">Implementação de uma bússola digital em linguagem
-                            Assembly. Projeto de baixo nível desenvolvido durante a graduação na FEI.</p>
+                        <h3 data-translate="project-3-title">TCC Fake DICOM</h3>
+                        <p data-translate="project-3-description">Sistema de segurança para imagens médicas DICOM
+                            (Graduação na FEI). Avalia redes neurais profundas (ResNet50) para detectar alterações e
+                            injeções de ransomwares/malwares em arquivos de exames, comparando criptografia RSA em
+                            pixels ou espectros de Fourier com transformadas temporais.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span data-translate="tag-academic">Acadêmico</span>
+                            <span data-translate="tag-cryptography">Criptografia</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/reh2G/TCC-Fake_DICOM" target="_blank" rel="noopener noreferrer"
+                                title="Repositório GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 4. Projeto Banco -->
+                <div class="project-card" data-category="academic">
+                    <div class="project-img"></div>
+                    <div class="project-info">
+                        <h3 data-translate="project-4-title">Projeto Banco</h3>
+                        <p data-translate="project-4-description">Sistema bancário interativo "QuemPoupaTem"
+                            desenvolvido em Python para a matéria de Fundamentos de Algoritmos (Graduação na FEI).
+                            Suporta contas Salário, Comum e Plus com taxas e limites distintos, controle de transações e
+                            persistência de dados em arquivos txt.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span data-translate="tag-academic">Acadêmico</span>
+                            <span data-translate="tag-basic">Básico</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/reh2G/Projeto-Banco" target="_blank" rel="noopener noreferrer"
+                                title="Repositório GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 5. Fundamentos em C -->
+                <div class="project-card" data-category="academic">
+                    <div class="project-img"></div>
+                    <div class="project-info">
+                        <h3 data-translate="project-5-title">Fundamentos em C</h3>
+                        <p data-translate="project-5-description">Exercícios práticos de programação desenvolvidos na
+                            disciplina de Desenvolvimento de Algoritmos (Graduação na FEI). Cobre lógica algorítmica
+                            fundamental, estruturas condicionais e de repetição, funções, arrays, ponteiros e alocação
+                            dinâmica de memória.</p>
+                        <div class="project-tags">
+                            <span>C</span>
+                            <span data-translate="tag-academic">Acadêmico</span>
+                            <span data-translate="tag-basic">Básico</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/reh2G/Exercicios-em-C" target="_blank" rel="noopener noreferrer"
+                                title="Repositório GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 6. Bússola Assembly -->
+                <div class="project-card" data-category="academic">
+                    <div class="project-img"></div>
+                    <div class="project-info">
+                        <h3 data-translate="project-6-title">Bússola Assembly</h3>
+                        <p data-translate="project-6-description">Simulador de bússola eletrônica interativa escrito em
+                            Assembly 8051 (simulado no Edsim51) para a disciplina de Arquitetura de Computadores.
+                            Integra leitura de teclado matricial 4x3 para exibir países vizinhos e oceanos em um display
+                            LCD 16x2 com interrupções.</p>
                         <div class="project-tags">
                             <span>Assembly</span>
                             <span data-translate="tag-low-level">Baixo Nível</span>
@@ -264,31 +330,55 @@
                         </div>
                     </div>
                 </div>
-                <!-- 4. PEL219-Tarefas -->
+                <!-- 7. Simulação de Robô -->
                 <div class="project-card" data-category="academic">
                     <div class="project-img"></div>
                     <div class="project-info">
-                        <h3 data-translate="project-4-title">PEL219-Tarefas</h3>
-                        <p data-translate="project-4-description">Exercícios e tarefas da disciplina do Mestrado:
-                            Redes Neurais Artificiais e Aprendizado Profundo.</p>
+                        <h3 data-translate="project-7-title">Simulação de Robô</h3>
+                        <p data-translate="project-7-description">Controle robótico de navegação autônoma desenvolvido
+                            em Python no simulador Webots para o robô e-puck (disciplina de IA e Robótica na FEI). O
+                            robô navega desviando de obstáculos até encontrar e sinalizar visualmente uma caixa de
+                            madeira com seus LEDs.</p>
                         <div class="project-tags">
                             <span>Python</span>
-                            <span data-translate="tag-academic">Acadêmico</span>
-                            <span>Google Colab</span>
+                            <span data-translate="tag-robotics">Robótica</span>
+                            <span data-translate="tag-simulation">Simulação</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/reh2G/PEL219-Tarefas" target="_blank" rel="noopener noreferrer"
+                            <a href="https://github.com/reh2G/Simulacao-Robo" target="_blank" rel="noopener noreferrer"
                                 title="Repositório GitHub"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
                 </div>
-                <!-- 5. PEL202-Projeto 1 -->
+                <!-- 8. Chatbot PIPE -->
                 <div class="project-card" data-category="academic">
                     <div class="project-img"></div>
                     <div class="project-info">
-                        <h3 data-translate="project-5-title">PEL202-Projeto 1</h3>
-                        <p data-translate="project-5-description">Projeto 1 desenvolvido na disciplina do Mestrado:
-                            Fundamentos de Inteligência Artificial.</p>
+                        <h3 data-translate="project-8-title">Chatbot PIPE</h3>
+                        <p data-translate="project-8-description">Assistente conversacional inteligente desenvolvido em
+                            Python para a disciplina de Inteligência Artificial e Robótica. Utiliza rede neural treinada
+                            para guiar pesquisadores e startups nas etapas de submissão de propostas tecnológicas do
+                            programa PIPE da FAPESP.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span data-translate="tag-academic">Acadêmico</span>
+                            <span>LLM</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/reh2G/IA-ChatBot-PIPE" target="_blank" rel="noopener noreferrer"
+                                title="Repositório GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 9. PEL202 Projeto 1 -->
+                <div class="project-card" data-category="academic">
+                    <div class="project-img"></div>
+                    <div class="project-info">
+                        <h3 data-translate="project-9-title">PEL202 Projeto 1</h3>
+                        <p data-translate="project-9-description">Resolução do problema de lógica clássico "Missionários
+                            e Canibais" em Python (Google Colab) para a matéria de Fundamentos de IA do Mestrado na FEI.
+                            Compara algoritmos e eficácia de buscas cegas (largura e profundidade) e buscas heurísticas.
+                        </p>
                         <div class="project-tags">
                             <span>Python</span>
                             <span data-translate="tag-academic">Acadêmico</span>
@@ -300,13 +390,15 @@
                         </div>
                     </div>
                 </div>
-                <!-- 6. PEL202-Projeto 2 -->
+                <!-- 10. PEL202 Projeto 2 -->
                 <div class="project-card" data-category="academic">
                     <div class="project-img"></div>
                     <div class="project-info">
-                        <h3 data-translate="project-6-title">PEL202-Projeto 2</h3>
-                        <p data-translate="project-6-description">Projeto 2 desenvolvido na disciplina do Mestrado:
-                            Fundamentos de Inteligência Artificial.</p>
+                        <h3 data-translate="project-10-title">PEL202 Projeto 2</h3>
+                        <p data-translate="project-10-description">Simulador gráfico interativo do Problema do Caixeiro
+                            Viajante (TSP) com interface Pygame para a disciplina de Fundamentos de IA do Mestrado na
+                            FEI. Permite implementar, parametrizar e comparar meta-heurísticas de Algoritmo Genético
+                            (GA) e Colônia de Formigas (ACO).</p>
                         <div class="project-tags">
                             <span>Python</span>
                             <span data-translate="tag-academic">Acadêmico</span>
@@ -315,6 +407,48 @@
                         <div class="project-links">
                             <a href="https://github.com/reh2G/PEL202-Projeto-2" target="_blank"
                                 rel="noopener noreferrer" title="Repositório GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 11. PEL208 Tarefas -->
+                <div class="project-card" data-category="academic">
+                    <span class="project-status-badge" data-translate="status-in-progress"><i
+                            class="fas fa-spinner fa-spin"></i> Em andamento</span>
+                    <div class="project-img"></div>
+                    <div class="project-info">
+                        <h3 data-translate="project-11-title">PEL208 Tarefas</h3>
+                        <p data-translate="project-11-description">Exercícios práticos para a disciplina de Tópicos
+                            Especiais em Aprendizagem no Mestrado. Apresenta implementações e análise de modelos de
+                            aprendizado estatístico como KNN, Mínimos Quadrados e Árvores de Decisão utilizando bases de
+                            dados reais do UCI ML Repository.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span data-translate="tag-academic">Acadêmico</span>
+                            <span>Google Colab</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/reh2G/PEL208-Tarefas" target="_blank" rel="noopener noreferrer"
+                                title="Repositório GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 12. PEL219 Tarefas -->
+                <div class="project-card" data-category="academic">
+                    <div class="project-img"></div>
+                    <div class="project-info">
+                        <h3 data-translate="project-12-title">PEL219 Tarefas</h3>
+                        <p data-translate="project-12-description">Projetos de Redes Neurais e Aprendizado Profundo
+                            desenvolvidos no Mestrado. Inclui Perceptron, Backpropagation implementado do zero para
+                            redes MLP (sem bibliotecas), análises de modelos no dataset MNIST e aprendizado Greedy
+                            Layer-Wise.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span data-translate="tag-academic">Acadêmico</span>
+                            <span>Google Colab</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/reh2G/PEL219-Tarefas" target="_blank" rel="noopener noreferrer"
+                                title="Repositório GitHub"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
                 </div>
